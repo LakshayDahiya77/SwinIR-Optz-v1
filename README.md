@@ -41,16 +41,14 @@ This project implements a modified version of the **SwinIR (Swin Transformer for
 
 ## 📓 Notebook Link
 
-- 🔗 [Colab Notebook (Training + Evaluation)](https://colab.research.google.com/drive/1gSMlOKq1DgLb6HRgBuG8KNm5fGBVZAHE)
-- 🔗 [Kaggle Version](https://www.kaggle.com/code/alonelosser15/dl-swinir-scratch-to45)
+- 🔗 [Colab Notebook (Training)](https://colab.research.google.com/drive/1gSMlOKq1DgLb6HRgBuG8KNm5fGBVZAHE)
+- 🔗 [Colab Notebook (Inference)](https://colab.research.google.com/drive/1JvBTRkgJlB2MCJ9qRNlRRqVMS7a-LZMB)
 
 ---
 
 ## 💾 Model Weights
 
-- 🔗 [Google Drive - Saved Checkpoints](https://drive.google.com/drive/folders/1LdHl1Yua6KDehIB004NdeiJm-npF4n_D?usp=drive_link)
-
-> Place the `.pth` files inside the `checkpoints/` folder if replicating locally.
+- swinsr_epoch_45.pth file in the repo.
 
 ---
 
