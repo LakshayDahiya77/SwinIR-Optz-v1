@@ -38,3 +38,31 @@ This project implements a modified version of the **SwinIR (Swin Transformer for
 ⚠️ Note: Our model underperformed slightly compared to original SwinIR due to simplified architecture and fewer training optimizations.
 
 ---
+
+## 📓 Notebook Link
+
+- 🔗 [Colab Notebook (Training + Evaluation)](https://colab.research.google.com/drive/1gSMlOKq1DgLb6HRgBuG8KNm5fGBVZAHE)
+- 🔗 [Kaggle Version](https://www.kaggle.com/code/alonelosser15/dl-swinir-scratch-to45)
+
+---
+
+## 💾 Model Weights
+
+- 🔗 [Google Drive - Saved Checkpoints](https://drive.google.com/drive/folders/1LdHl1Yua6KDehIB004NdeiJm-npF4n_D?usp=drive_link)
+
+> Place the `.pth` files inside the `checkpoints/` folder if replicating locally.
+
+---
+
+## 🧠 Lessons Learned
+
+- Always match library versions with pretrained models or architecture dependencies.
+- Training large models like SwinIR requires memory-efficient techniques (e.g., mixed precision, gradient accumulation).
+- Simple architectural changes (like dynamic window sizing) require extensive tuning to outperform standard methods.
+
+---
+
+## 📌 References
+
+- [Original SwinIR GitHub Repo](https://github.com/JingyunLiang/SwinIR)
+- Papers: Liang et al., “SwinIR: Image Restoration Using Swin Transformer”
